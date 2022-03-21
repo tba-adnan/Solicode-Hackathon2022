@@ -1,0 +1,112 @@
+body {
+    background-color: white !important;
+  }
+.container {
+background: none !important;
+background-image: none !important;
+}
+
+.tba-text-color {
+    color: black !important;
+  }
+
+.tba-image-framing {
+    border-color: #3945BA !important;
+}
+
+
+.tba-playbutton {
+    color: #F2B705 !important; 
+}
+
+.section-header h2:after { 
+    background: none !important;
+}
+
+.tba-main-text { 
+  color: #F2B705 !important;
+  text-shadow: none !important;
+}
+
+.tba-register-button { 
+  color: #3945BA !important;
+  background: #F2B705 !important;
+}
+
+.tba-header-bottom {
+  background-color: #3945BA !important;
+  height: 105px !important;
+}
+
+.tba-header-navbtn {
+color: #F2B705 !important; 
+}
+
+.tba-header-btntext {
+  color: #3945BA !important; 
+}
+
+
+.banner-section {
+  /* background: url(../images/banner/bg.jpg);
+  background-size: cover; */
+  background: none !important;
+}
+
+
+
+.tba-top-text1 {
+  color: #3945BA !important;
+  text-shadow: #F2B705 2px 2px 0 !important;
+} 
+
+.tba-top-text2 {
+  color: black;
+}
+
+.tba-days {
+  background-color: #F2B705 !important;
+}
+
+.tba-hours {
+  background-color: #F2B705 !important;
+}
+
+.tba-minutes {
+  background-color: #3945BA !important;
+}
+
+.tba-seconds {
+  background-color: #3945BA !important;
+}
+
+.banner-wrapper {
+  background: none !important;
+}
+
+.lab-btn { 
+  color: #F2B705 !important;
+}
+
+.lab-btn span {
+  color: #3945BA !important;
+}
+
+.tba-main-logoX {
+ display: block !important;
+}
+
+.count-text-one {
+  border: #F2B705  solid;
+ }
+
+ .count-text-two {
+  border: #3945BA  solid;
+ }
+
+embed {
+  width: 270px;
+ }
+
+
+ 
