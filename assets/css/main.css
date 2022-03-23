@@ -4,8 +4,8 @@
 :root {
     --header-height:3rem;
     /*======= COLORS =======*/
-    --first-color: #069C54;
-    --first-color-alt: #048654;
+    --first-color: #418FBF;
+    --first-color-alt: #ffc107;
     --title-color: #393939;
     --text-color: #707070; 
     --text-color-light: #A6A6A6;
@@ -62,23 +62,7 @@ html {
 }
 
 
-/*======= VARIABLES DARK THEME =======*/
-body.dark-theme{
-    --title-color: #F1F3F2;
-    --text-color: #C7D1CC;
-    --body-color: #1D2521;
-    --container-color: #27302C;
-}
 
-/*======= VARIABLES DARK THEME =======*/
-.change-theme{
-    position: absolute;
-    top: 1.8rem;
-    right: 1rem;
-    color: var(--text-color);
-    font-size: 1rem;
-    cursor: pointer;
-}
 
 body {
     margin: var(--header-height) 0 0 0;
@@ -155,4 +139,95 @@ img {
     right: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
+}
+
+
+/*======= NAV =======*/
+.nav {
+    max-width: 1024px;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px){
+    .nav__menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        padding: 1.5rem 0 1rem;
+        width: 100%;
+        text-align: center;
+        background-color: var(--body-color);
+        transition: .4s;
+        box-shadow: 0 4px 4px rgb(0, 0, 0, .1);
+        border-radius: 0 0 1rem 1rem;
+        z-index: var(--z-fixed);
+    }
+}
+
+.nav__item {
+    margin-bottom: var(--mb-2);
+}
+
+.nav__link, .nav__toggle {
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+}
+
+.nav__logo{
+    color: var(--first-color);
+    font-weight: var(--font-medium);
+}
+
+.nav__logo:hover {
+    color: var(--first-color-alt);
+}
+
+.nav__link{
+    transition: .3s;
+}
+
+.nav__link:hover{
+    color: var(--first-color);
+}
+
+.nav__toggle{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+/* SHOW MENU */
+.show__menu {
+    top: var(--header-height);
+}
+
+/* ACTIVE LINKS */
+
+.active-link{
+    color: var(--first-color);
+}
+
+/* SCROLL HEADER BACKROUND CHANGE */
+.scroll-header{
+    box-shadow: 0 4px 2px rgb(0, 0, 0, .1);
+}
+
+
+
+/*======= BUTTONS =======*/
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFFFFF;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    transition: .3s;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover{
+    background-color: var(--first-color-alt);
 }
