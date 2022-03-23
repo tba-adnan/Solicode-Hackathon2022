@@ -299,3 +299,14 @@ img {
 .sponsors__description{
     padding: 0 1.5rem;
 }
+
+
+
+/*======= CONTACT =======*/
+.contact__container {
+    text-align: center;
+}
+
+.contact__description {
+    margin-bottom: var(--mb-4);
+}
